@@ -1,3 +1,31 @@
+
 .header_wrapper {
     display: flex;
+    margin-top: 30px;
+}
+
+.logo {
+    margin-right: 173px;
+}
+
+.nav {
+    margin-right: 159px;
+}
+
+.button {
+
+    background: #FF7143;
+    border-radius: 10px;
+    width: 211px;
+    height: 60px;
+    color: #fffffF;
+    
+    
+}
+
+.link {
+    margin-right: 49px;
+}
+.link:nth-last-child(1) {
+    margin-right: 0;
 }
