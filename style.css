@@ -1,15 +1,19 @@
 
 .header_wrapper {
     display: flex;
+    justify-content: space-around;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
-    margin-right: 173px;
+    /* margin-right: 173px; */
+    padding-left: 184px;
 }
 
 .nav {
-    margin-right: 159px;
+    /* margin-right: 159px; */
 }
 
 .button {
@@ -46,9 +50,41 @@
 
 .grow-wrapper {
     display: flex;
+    justify-content: space-around;
     margin-top: 100px;
+    /* margin-left: auto;
+    margin-right: auto;
+    width: em; */
 }
 
 .title-grow{
   margin-top: 92px;  
+  margin-left: 184px;
+}
+
+.title-h {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 80px;
+    line-height: 77px;
+    color: #19191B;
+    margin-bottom: 0;
+    height: 231px;
+    width: 462px;
+}
+
+.text-grow {
+    font-family: 'Mulish', sans-serif;    
+    font-size: 20px;
+    line-height: 30px;
+    color: #696871;
+}
+
+.button-grow {
+    background:  #5454D4;
+    border-radius: 10px;
+    width: 211px;
+    height: 60px;
+    color: #fffffF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
 }
