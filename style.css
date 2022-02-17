@@ -19,13 +19,36 @@
     width: 211px;
     height: 60px;
     color: #fffffF;
-    
-    
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
 }
 
 .link {
     margin-right: 49px;
+    margin-top: 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    color: #696871;
+}
+.link:link {
+  text-decoration: none;  
+}
+
+/* hover меняем на visited, hover для наглядности */
+.link:hover {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+
 }
 .link:nth-last-child(1) {
     margin-right: 0;
+}
+
+.grow-wrapper {
+    display: flex;
+    margin-top: 100px;
+}
+
+.title-grow{
+  margin-top: 92px;  
 }
