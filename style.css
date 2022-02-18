@@ -4,7 +4,7 @@ body {
     justify-content: space-between;    
 }
 
-.header_wrapper {
+.header__wrapper {
     display: flex;
     justify-content: space-around;
 }
@@ -118,4 +118,12 @@ body {
 }
 .grow__title-btn {
     display: flex;
+}
+
+.grow__about {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 187px;
+    margin-top: 110px;
+    margin-bottom: 50px;
 }
