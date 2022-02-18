@@ -122,9 +122,16 @@ body {
 }
 
 .grow__about {
-    margin: 0 187px;
+    margin: 0 186px;
     margin-top: 110px;
     margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
+}
+
+.logo__about{
+    margin-right: 119px;
+}
+.logo__about:hover {
+    cursor: pointer;
 }
