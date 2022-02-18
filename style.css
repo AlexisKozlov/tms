@@ -11,9 +11,6 @@ body {
 
  .logo {
  padding-top: 41px;   
- /* margin-left: 184px;  */
- /* margin-right: 173px; */
- /* padding-right: 123px; */
 }
 
 .nav {
@@ -61,15 +58,7 @@ body {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
-    /* margin-left: auto;
-    margin-right: auto;
-    width: em; */
 }
-
-/* .title__grow{
-  margin-top: 92px;  
-  margin-left: 184px;
-} */
 
 .title__h {
     margin-bottom: 0;
