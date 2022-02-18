@@ -1,3 +1,8 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: auto;
+    justify-content: space-between    
+}
 
 .header_wrapper {
     display: flex;
@@ -7,24 +12,24 @@
     margin-right: auto;
 }
 
-.logo {
-    /* margin-right: 173px; */
-    padding-left: 184px;
-}
+ /* .logo {
+ margin-right: 173px; 
+    padding-left: 184px; 
+} */
 
-.nav {
-    /* margin-right: 159px; */
-}
+/* .nav {
+     margin-right: 159px; 
+}  */
 
 .button {
-
-    background: #FF7143;
-    border-radius: 10px;
     width: 211px;
     height: 60px;
     color: #fffffF;
     font-family: 'DM Sans', sans-serif;
     font-size: 17px;
+    background: #FF7143;
+    border: none;
+    border-radius: 10px;
 }
 
 .link {
@@ -40,8 +45,9 @@
 
 /* hover меняем на visited, hover для наглядности */
 .link:hover {
-    border-bottom: 1px solid black;
     padding-bottom: 10px;
+    border-bottom: 2px solid #5454D4;
+    transition: color 0.7s; /* не работает */
 
 }
 .link:nth-last-child(1) {
@@ -50,7 +56,7 @@
 
 .grow-wrapper {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin-top: 100px;
     /* margin-left: auto;
     margin-right: auto;
@@ -63,13 +69,14 @@
 }
 
 .title-h {
+    margin-bottom: 0;
+    height: 231px;
+    width: 462px;
     font-family: 'DM Sans', sans-serif;
     font-size: 80px;
     line-height: 77px;
     color: #19191B;
-    margin-bottom: 0;
-    height: 231px;
-    width: 462px;
+    
 }
 
 .text-grow {
@@ -80,11 +87,12 @@
 }
 
 .button-grow {
-    background:  #5454D4;
-    border-radius: 10px;
     width: 211px;
     height: 60px;
-    color: #fffffF;
     font-family: 'DM Sans', sans-serif;
     font-size: 17px;
+    color: #fffffF;
+    background:  #5454D4;
+    border-radius: 10px;
+    border: none;
 }
