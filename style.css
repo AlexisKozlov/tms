@@ -57,7 +57,7 @@ body {
     margin-right: 0;
 }
 
-.grow-wrapper {
+.grow__wrapper {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
@@ -66,12 +66,12 @@ body {
     width: em; */
 }
 
-.title-grow{
+.title__grow{
   /* margin-top: 92px;  
   margin-left: 184px; */
 }
 
-.title-h {
+.title__h {
     margin-bottom: 0;
     height: 231px;
     width: 462px;
@@ -82,18 +82,19 @@ body {
     
 }
 
-.text-grow {
+.text__grow {
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 50px;
     width: 459px;
     font-family: 'Mulish', sans-serif;    
     font-size: 20px;
     line-height: 30px;
     color: #696871;
-    margin: 0;
-    margin-top: 30px;
-    margin-bottom: 50px;
 }
 
 .button__grow {
+    padding: 0;
     width: 211px;
     height: 60px;
     font-family: 'DM Sans', sans-serif;
@@ -102,7 +103,7 @@ body {
     background:  #5454D4;
     border-radius: 10px;
     border: none;
-    padding: 0;
+
 }
 
 .button__grow:hover {
@@ -121,9 +122,9 @@ body {
 }
 
 .grow__about {
-    display: flex;
-    justify-content: space-between;
     margin: 0 187px;
     margin-top: 110px;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
 }
