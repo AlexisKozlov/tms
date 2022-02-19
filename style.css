@@ -2,12 +2,15 @@ body {
 font-family: 'Open Sans', sans-serif;
 padding:0;
 margin:0;
+background-color: #AB4949;
 }
 
 .header{
 display: flex;
 justify-content: space-between;
-background-color: #000;    
+background-color: #000;   
+max-width: 1510px;
+    margin: 0 auto; 
 }
 
 .header__logo {
@@ -49,3 +52,13 @@ transition: color 0,7s;
     background-color: #AB4949;
     transition: color 0,7s;
     }
+
+.modern__bg {
+    max-width: 1510px;
+    margin: 0 auto;
+    height: 1026px;
+    background-image: url(./img/bg.png) ;
+    background-repeat:no-repeat;
+    background-size:100% 100% ;
+    
+}
