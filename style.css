@@ -5,15 +5,15 @@ body {
 font-family: 'Open Sans', sans-serif;
 padding:0;
 margin:0;
-background-color: #AB4949;
+background-color: rgb(24, 23, 23);
 }
 
 .header{
 display: flex;
 justify-content: space-between;
-background-color: #000;   
 max-width: 1510px;
-    margin: 0 auto; 
+margin: 0 auto; 
+background-color: #000;   
 }
 
 .header__logo {
@@ -21,10 +21,10 @@ max-width: 1510px;
 }
 
 .link__nav {
-    /* margin-right: 57px; */
+    
     height: 75px;
-    line-height: 75px;
     width: 113px;
+    line-height: 75px;
     text-align: center;
     font-size: 14px;
     color: #fff;
@@ -42,12 +42,12 @@ max-width: 1510px;
 }
 
 .link__nav:hover {
-background-color: #EC7979;
-height: 75px;
+height: 79px;
 width: 113px;
 text-align: center;
 line-height: 75px;
 align-self: center;
+background-color: #EC7979;
 transition: color 0,7s;
 }
 
@@ -61,13 +61,12 @@ transition: color 0,7s;
     margin: 0 auto;
     height: 1026px;
     background-image:url(./img/bg__black.png), url(./img/bg.png) ;
-    /* background-repeat:no-repeat; */
+    background-repeat:no-repeat;
 
     
 }
 
 .axit__logo {
-/* padding-top: 231px; */
 padding-left: 170px;
 }
 
@@ -102,15 +101,15 @@ font-size: 48px;
 }
 
 .axit__buttom-download {
-    margin-left: 170px;   
+ margin-left: 170px;   
  margin-top: 42px;
  width: 270px;
  height: 58px;
- background: none;
- border: 3px solid #fff;
  color: #fff;
  font-size: 18px;
  font-family: 'Open Sans', sans-serif;
+ background: none;
+ border: 3px solid #fff;
  cursor: pointer;
 }
 
@@ -120,13 +119,13 @@ font-size: 48px;
 }
 
 .axit__buttom-download:active {
-    background-color:#AB4949;
     color: #fff;
     border: 3px solid #AB4949; 
+    background-color:#AB4949;
 }
 
 .axit__form-wrapper {
-    margin-left: 30px;
+  margin-left: 30px;
   width: 470px;
   height: 450px;  
   background-color: #fff;
@@ -151,27 +150,27 @@ color :#EC7979;
 }
 
 .form__input {
+    margin-top: 33px;
     margin-left: 50px;
     margin-right: 50px;
-    border: 0;
-    line-height: 39px;
-    border-bottom: 1px solid #BDBDBD;
     width: 370px;
+    line-height: 39px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    margin-top: 33px;
+    border: 0;
+    border-bottom: 1px solid #BDBDBD;
 }
 
 .form__get {
     margin-top: 75px;
     width: 470px;
     height: 60px;
-    background-color: #EC7979;
     text-align: center;
     line-height: 60px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #fff;
+    background-color: #EC7979;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     cursor: pointer;
@@ -182,7 +181,6 @@ color :#EC7979;
 }
 
 .modern__wrapper {
-    display: flex;
     padding-top: 208px;
-
+    display: flex;
 }
