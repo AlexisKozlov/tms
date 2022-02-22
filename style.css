@@ -5,7 +5,7 @@ body {
 font-family: 'Open Sans', sans-serif;
 padding:0;
 margin:0;
-background-color: rgb(24, 23, 23);
+background-color: #181717;
 }
 
 .header{
@@ -245,11 +245,9 @@ line-height: 50%;
     padding-left: 100px;
     display: flex;
     flex-direction: column;
-    position: relative;
     border: 1px solid #C6CBCD;
     border-top: none;
 }
-
 
 .wrapp {
     margin-top: 99px;
@@ -262,7 +260,6 @@ line-height: 50%;
     
 }
 .table__tab > span {
-    /* margin-right: 154px; */
     height: 40px;
     width: 203px;
     display: flex;
@@ -296,7 +293,6 @@ line-height: 50%;
 
 .table__img{
     margin-top: 139px;
-    /* margin-right: 170px; */
 }
 
 .table__btn {
@@ -304,12 +300,21 @@ line-height: 50%;
     margin-bottom: 52px;
     width: 270px;
     height: 58px;
-    background: #EC7979;
     color: #fff;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
+    background: #EC7979;
     border: none;
     cursor: pointer;  
+}
+
+.table__btn:hover {
+background-color: #AB4949;
+}
+
+.table__btn:active {
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 .tab1 {
