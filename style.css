@@ -1,0 +1,126 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: auto;
+    justify-content: space-between;    
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+ .logo {
+ padding-top: 41px;   
+}
+
+.nav {
+    padding-top: 44px; 
+} 
+
+.button__wrapper {
+    padding-top: 30px; 
+}
+.button {
+    width: 211px;
+    height: 60px;
+    color: #fffffF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    background: #FF7143;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.link {
+    margin-right: 49px;
+    margin-top: 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    color: #696871;
+}
+.link:link {
+  text-decoration: none;  
+}
+
+.link:active {
+    padding-bottom: 10px;
+    color: #19191B;
+    border-bottom: 2px solid #5454D4;
+    transition: color 0.7s; /* не работает */
+
+}
+.link:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.grow__wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.title__h {
+    margin-bottom: 0;
+    height: 231px;
+    width: 462px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 80px;
+    line-height: 77px;
+    color: #19191B;
+    
+}
+
+.text__grow {
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 459px;
+    font-family: 'Mulish', sans-serif;    
+    font-size: 20px;
+    line-height: 30px;
+    color: #696871;
+}
+
+.button__grow {
+    padding: 0;
+    width: 211px;
+    height: 60px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    color: #fffffF;
+    background:  #5454D4;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.button__grow:hover {
+    cursor: pointer;
+}
+
+.grow__btn {
+    margin-left: 40px;
+}
+
+.grow__btn:hover {
+    cursor: pointer;
+}
+.grow__title-btn {
+    display: flex;
+}
+
+.grow__about {
+    margin: 0 186px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__about{
+    margin-right: 119px;
+}
+.logo__about:hover {
+    cursor: pointer;
+}
