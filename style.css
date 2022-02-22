@@ -75,7 +75,6 @@ margin: 0;
 padding-left: 170px;
 padding-top: 51px;   
 width: 670px;
-/* height: 168px; */
 color: #fff;
 font-family: 'Raleway', sans-serif;
 font-weight: 500;
@@ -180,6 +179,11 @@ color :#EC7979;
     background-color: #AB4949;
 }
 
+.form__get:active {
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
+
 .modern__wrapper {
     padding-top: 208px;
     display: flex;
@@ -225,7 +229,7 @@ align-items: center;
 line-height: 50%;
 }
 
-.social__icons > img {
+.social__icons > a > img {
     margin-right: 45px;
     cursor: pointer;
 }
