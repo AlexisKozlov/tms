@@ -184,3 +184,48 @@ color :#EC7979;
     padding-top: 208px;
     display: flex;
 }
+
+.social__wrapper {
+    max-width: 1510px;
+    margin: 0 auto;
+    background-color: #F8EFEF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__head {
+    margin-top: 2px;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #333333;
+}
+
+.social__desc {
+    padding-bottom: 18px;
+    width: 470px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;  
+    line-height: 21,13px;
+    color: #86878B;
+}
+
+.social__text {
+   margin-left: 170px; 
+   margin-right: 50px;
+}
+
+.social__icons {
+margin-right: 138px;   
+display: flex; 
+align-items: center;
+line-height: 50%;
+}
+
+.social__icons > img {
+    margin-right: 45px;
+    cursor: pointer;
+}
