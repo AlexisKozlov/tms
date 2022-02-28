@@ -1,0 +1,80 @@
+h1,
+p,
+h3 {
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #181717;
+}
+
+.awesome__wrapper{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    max-width: 1510px;
+    margin: 0 auto;
+    background: #E5E5E5;
+}
+
+.awesome__head h2{
+    margin: 0 169px 0px 171px;
+    width: 1170px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 36px;
+    font-family: Raleway;
+    font-weight: 400;
+}
+
+.awesome__line{
+    margin: 0 669px 40px 671px;
+    width: 170px;
+    border-bottom: 1px solid #EC7979;
+    
+
+}
+
+.awesome__desk {
+    margin: 0 169px 110px 171px;
+    width: 1169px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.awesome__features-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 169px 58px 171px;
+}
+
+.features__card img {
+    display: block;
+    margin: 0 auto;
+}
+
+.features__card h3 {
+    width: 369px;
+    height: 100px;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100px;
+}
+
+.features__card p {
+    margin-top: 8px;
+    width: 370px;
+    height: 105px;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
