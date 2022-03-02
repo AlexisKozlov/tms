@@ -1,0 +1,50 @@
+h1,
+p,
+h3 {
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #181717;
+}
+
+.section__wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1510px;
+  margin: 0 auto;
+  background: #e5e5e5;
+}
+
+ .reviews__text {
+     display: flex;
+     margin: 83px 170px 66px 170px;
+ }
+
+ .reviews__card{
+     width: 370px;
+     height: 180px;
+     background: #E2E2E2;
+        border-radius: 10px;
+ }
+
+ .reviews__card p {
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 400;
+    color: #86878B;
+    /* line-height: 180px; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+ }
