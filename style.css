@@ -33,7 +33,7 @@ body {
 
 .link__nav:nth-child(5) {
   margin-right: 170px;
-}
+} 
 
 .nav__header {
   display: flex;
@@ -234,7 +234,7 @@ body {
   margin: 0 auto;
   max-width: 1510px;
   display: flex;
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 .table__text {
